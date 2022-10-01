@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.shops.AddStore">
+
+    <EditText
+        android:id="@+id/addShopName"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="168dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/spinner_shape"
+        android:ems="10"
+        android:hint="shop name"
+
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:paddingStart="@dimen/_16sdp"/>
+
+    <EditText
+        android:id="@+id/addShopLocation"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/spinner_shape"
+        android:ems="10"
+        android:hint="shop location"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/addShopPhone"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/addShopPhone"
+        app:layout_constraintTop_toBottomOf="@+id/addShopPhone"
+        android:paddingStart="@dimen/_16sdp"/>
+
+    <EditText
+        android:id="@+id/addShopPhone"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/spinner_shape"
+        android:ems="10"
+        android:hint="shop phone"
+        android:inputType="phone"
+        app:layout_constraintEnd_toEndOf="@+id/addShopName"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/addShopName"
+        app:layout_constraintTop_toBottomOf="@+id/addShopName"
+        android:paddingStart="@dimen/_16sdp"/>
+
+    <Button
+        android:id="@+id/addShopBtn"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/shape_btn"
+        android:text="Add Store"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addShopLocation" />
+    <TextView
+        android:id="@+id/textView"
+        style="@style/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lora_italic"
+        android:text="Add Store"
+        android:textColor="@color/tileColor"
+        android:textSize="@dimen/_24sdp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="@dimen/_32sdp"
+        android:layout_height="@dimen/_32sdp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/ic_back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

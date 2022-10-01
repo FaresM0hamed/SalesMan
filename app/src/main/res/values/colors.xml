@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FECF2C</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="tileColor">#D52EB2</color>
+    <color name="bar">#0965A4</color>
+    <color name="background">#FCF9F9</color>
+    <color name="darkBlue">#0099FF</color>
+    <color name="cyan">#A2D9FF</color>
+    <color name="text">#323840</color>
+    <color name="spinnerBackGround">#F4F4F4</color>
+    <color name="btnColor">#A0E7E5</color>
+<!--    <color name="testspinner">#B4F8C8</color>-->
+<!--    <color name="titleColor">#FFAEBC</color>-->
+    <color name="gray_200">#F4F4F4</color>
+    <color name="gray_300">#7B7B7B</color>
+    <color name="gray_500">#585858</color>
+
+
+</resources>

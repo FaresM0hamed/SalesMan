@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="products" >
+        <item> product name</item>
+        <item>Samsung Mobile Phones</item>
+        <item>IPhone Mobiles</item>
+        <item>LG TV</item>
+        <item>Samsung TV</item>
+        <item>HTC VR Headset</item>
+        <item>HUAWEI Smart Watch</item>
+        <item>Apple Smart Watch</item>
+        <item>PlayStation 5</item>
+    </string-array>
+
+    <string-array name="damages" >
+        <item>Damage type</item>
+        <item>Power </item>
+        <item>Misuse </item>
+        <item>Packaging </item>
+        <item>Other Damage</item>
+    </string-array>
+
+
+
+
+</resources>

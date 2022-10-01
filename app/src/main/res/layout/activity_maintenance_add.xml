@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.maintenance.MaintenanceAdd"
+    android:background="@color/white">
+
+    <Spinner
+        android:id="@+id/shopName"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_56sdp"
+        android:layout_marginStart="@dimen/_16sdp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="@dimen/_16sdp"
+        android:layout_weight="2"
+        android:dropDownHeight="@dimen/_70sdp"
+        android:dropDownVerticalOffset="@dimen/_60sdp"
+        android:overScrollMode="never"
+        android:popupTheme="@style/App_SpinnerStyle"
+        android:scrollbars="none"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/productName"
+        app:layout_goneMarginEnd="@dimen/_16sdp"
+        android:background="@drawable/spinner_shape"
+        />
+    <ImageView
+        android:layout_width="@dimen/_15sdp"
+        android:layout_height="@dimen/_15sdp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/shopName"
+        app:layout_constraintEnd_toEndOf="@+id/shopName"
+        app:layout_constraintTop_toTopOf="@+id/shopName"
+        android:src="@drawable/ic_downarr"/>
+
+    <Spinner
+        android:id="@+id/productName"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_56sdp"
+        android:layout_marginStart="@dimen/_16sdp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="@dimen/_16sdp"
+        android:layout_weight="2"
+        android:background="@drawable/spinner_shape"
+        android:dropDownHeight="@dimen/_70sdp"
+        android:dropDownVerticalOffset="@dimen/_60sdp"
+        android:overScrollMode="never"
+        android:popupTheme="@style/App_SpinnerStyle"
+        android:scrollbars="none"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_goneMarginEnd="@dimen/_16sdp" />
+    <ImageView
+        android:layout_width="@dimen/_15sdp"
+        android:layout_height="@dimen/_15sdp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/productName"
+        app:layout_constraintEnd_toEndOf="@+id/productName"
+        app:layout_constraintTop_toTopOf="@+id/productName"
+        android:src="@drawable/ic_downarr"/>
+
+    <Spinner
+        android:id="@+id/damageType"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_56sdp"
+        android:layout_marginStart="@dimen/_16sdp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="@dimen/_16sdp"
+        android:layout_weight="2"
+        android:dropDownHeight="@dimen/_70sdp"
+        android:dropDownVerticalOffset="@dimen/_60sdp"
+        android:overScrollMode="never"
+        android:popupTheme="@style/App_SpinnerStyle"
+        android:scrollbars="none"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shopName"
+        app:layout_goneMarginEnd="@dimen/_16sdp"
+        android:background="@drawable/spinner_shape"/>
+    <ImageView
+        android:layout_width="@dimen/_15sdp"
+        android:layout_height="@dimen/_15sdp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/damageType"
+        app:layout_constraintEnd_toEndOf="@+id/damageType"
+        app:layout_constraintTop_toTopOf="@+id/damageType"
+        android:src="@drawable/ic_downarr"/>
+
+
+    <EditText
+        android:id="@+id/damageDec"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="damage des"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/damageType"
+        app:layout_constraintStart_toStartOf="@+id/damageType"
+        app:layout_constraintTop_toBottomOf="@+id/damageType"
+        android:background="@drawable/spinner_shape"
+        android:paddingStart="@dimen/_16sdp"/>
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/shape_btn"
+        android:text="Add Request"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/damageDec" />
+    <TextView
+        android:id="@+id/textView"
+        style="@style/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lora_italic"
+        android:text="Add Request"
+        android:textColor="@color/tileColor"
+        android:textSize="@dimen/_24sdp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="@dimen/_32sdp"
+        android:layout_height="@dimen/_32sdp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/ic_back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

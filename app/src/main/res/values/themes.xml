@@ -1,0 +1,41 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SalesMan" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/bar</item>
+        <item name="colorPrimaryVariant">@color/bar</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+
+        <item name="android:statusBarColor">@color/background</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.SalesMan.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.SalesMan.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.SalesMan.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="text">
+        <item name="android:textSize">@dimen/_13sdp</item>
+        <item name="android:textStyle"> bold</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+
+    <style name="App_SpinnerStyle" parent="Widget.AppCompat.DropDownItem.Spinner">
+        <item name="android:fadeScrollbars">false</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:overScrollMode">never</item>
+        <item name="android:smoothScrollbar">true</item>
+        <item name="android:scrollbarSize">1dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+</resources>

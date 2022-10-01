@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.salesman">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="false"
+        android:theme="@style/Theme.SalesMan"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".ui.sales.AddSalesOperations"
+            android:exported="false" />
+        <activity
+            android:name=".ui.maintenance.MaintenanceAdd"
+            android:exported="false" />
+        <activity
+            android:name=".ui.orders.AddOrder"
+            android:exported="false" />
+        <activity
+            android:name=".ui.shops.AddStore"
+            android:exported="false" />
+        <activity
+            android:name=".ui.week_balance.WeekBalanceAdd"
+            android:exported="false" />
+        <activity
+            android:name=".ui.reports.Reports"
+            android:exported="false" />
+        <activity
+            android:name=".ui.orders.Orders"
+            android:exported="false" />
+        <activity
+            android:name=".ui.shops.Stores"
+            android:exported="false" />
+        <activity
+            android:name=".ui.maintenance.MaintenanceRequests"
+            android:exported="false" />
+        <activity
+            android:name=".ui.sales.SalesOperations"
+            android:exported="false" />
+        <activity
+            android:name=".ui.week_balance.WeekBalance"
+            android:exported="false" />
+        <activity
+            android:name=".ui.main_activity.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

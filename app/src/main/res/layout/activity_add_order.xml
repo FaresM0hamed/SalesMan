@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.orders.AddOrder">
+
+
+    <Spinner
+        android:id="@+id/chooseProductName"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_56sdp"
+        android:layout_marginStart="@dimen/_16sdp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="@dimen/_16sdp"
+        android:layout_weight="2"
+        android:background="@drawable/spinner_shape"
+        android:dropDownHeight="@dimen/_70sdp"
+        android:dropDownVerticalOffset="@dimen/_60sdp"
+        android:overScrollMode="never"
+        android:popupTheme="@style/App_SpinnerStyle"
+        android:scrollbars="none"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_goneMarginEnd="@dimen/_16sdp" />
+    <ImageView
+        android:layout_width="@dimen/_15sdp"
+        android:layout_height="@dimen/_15sdp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/chooseProductName"
+        app:layout_constraintEnd_toEndOf="@+id/chooseProductName"
+        app:layout_constraintTop_toTopOf="@+id/chooseProductName"
+        android:src="@drawable/ic_downarr"/>
+
+    <EditText
+        android:id="@+id/addQuantity"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/spinner_shape"
+        android:ems="10"
+        android:hint="quantity"
+        android:inputType="numberDecimal"
+        android:paddingStart="@dimen/_16sdp"
+        app:layout_constraintEnd_toEndOf="@+id/addShopName"
+        app:layout_constraintStart_toStartOf="@+id/addShopName"
+        app:layout_constraintTop_toBottomOf="@+id/addShopName" />
+
+    <Spinner
+        android:id="@+id/addShopName"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_56sdp"
+        android:layout_marginStart="@dimen/_16sdp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="@dimen/_16sdp"
+        android:layout_weight="2"
+        android:dropDownHeight="@dimen/_70sdp"
+        android:dropDownVerticalOffset="@dimen/_60sdp"
+        android:overScrollMode="never"
+        android:popupTheme="@style/App_SpinnerStyle"
+        android:scrollbars="none"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chooseProductName"
+        app:layout_goneMarginEnd="@dimen/_16sdp"
+        android:background="@drawable/spinner_shape"/>
+    <ImageView
+        android:layout_width="@dimen/_15sdp"
+        android:layout_height="@dimen/_15sdp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/addShopName"
+        app:layout_constraintEnd_toEndOf="@+id/addShopName"
+        app:layout_constraintTop_toTopOf="@+id/addShopName"
+        android:src="@drawable/ic_downarr"/>
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/addOrderDate"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="24dp"-->
+    <!--        android:ems="10"-->
+    <!--        android:inputType="date"-->
+    <!--        android:hint="order date"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/addShopName" />-->
+
+    <Button
+        android:id="@+id/addOrderBtn"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/shape_btn"
+        android:text="Add Order"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addQuantity" />
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lora_italic"
+        android:text="Add Order"
+        android:textColor="@color/tileColor"
+        android:textSize="@dimen/_24sdp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="@dimen/_32sdp"
+        android:layout_height="@dimen/_32sdp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/ic_back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

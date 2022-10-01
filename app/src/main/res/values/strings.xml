@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Sales Man</string>
+    <string name="lets_start_our">Lets Start Our Trip...</string>
+    <string name="week_balance">Week Balance</string>
+    <string name="sales_operation">Sales Operations</string>
+    <string name="stores">Stores</string>
+    <string name="maintenance">Maintenance Requests</string>
+    <string name="orders">Orders</string>
+    <string name="reports">Reports</string>
+    <string name="title_activity_week_balance">WeekBalance</string>
+    <string name="sold_pieces">Sold pieces</string>
+    <string name="salesprocess">Sales Process</string>
+    <string name="damagepieces">Damage Pieces</string>
+    <string name="homepage">Home page</string>
+    <string name="share">Share</string>
+
+
+</resources>

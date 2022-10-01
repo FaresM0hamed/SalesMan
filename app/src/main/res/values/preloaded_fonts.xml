@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/lora</item>
+        <item>@font/lora_bold</item>
+        <item>@font/lora_italic</item>
+        <item>@font/oleo_script_swash_caps</item>
+        <item>@font/oswald</item>
+    </array>
+</resources>

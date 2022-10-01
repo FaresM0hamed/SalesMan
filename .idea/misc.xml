@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1965" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/drawable/ic_add.xml" value="0.17" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/drawable/ic_back.xml" value="0.17" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/drawable/ic_call.xml" value="0.1665" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1965" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/drawable/ic_main_blance.xml" value="0.1965" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/drawable/ic_main_icon.xml" value="0.1965" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/drawable/ic_main_maintenance.xml" value="0.1965" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/drawable/ic_main_maintenance1.xml" value="0.1965" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/drawable/ic_main_money.xml" value="0.1965" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/drawable/ic_main_order.xml" value="0.1965" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/drawable/ic_main_reports.xml" value="0.1965" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/drawable/ic_main_shops.xml" value="0.1965" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/drawable/ic_maintenance_request_test.xml" value="0.209" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/drawable/ic_menu_camera.xml" value="0.1965" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.1965" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/drawable/ic_orders_test.xml" value="0.209" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/drawable/ic_reports_test.xml" value="0.209" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/drawable/ic_reset.xml" value="0.17" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/drawable/ic_salesnew_test.xml" value="0.209" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/drawable/ic_salesssss.xml" value="0.209" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/drawable/ic_share.xml" value="0.1665" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/drawable/ic_stores_call.xml" value="0.16" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/drawable/ic_stores_location.xml" value="0.16" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/drawable/ic_stores_test.xml" value="0.209" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/drawable/ic_week_balance_test.xml" value="0.209" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/drawable/shape_btn.xml" value="0.17" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/drawable/side_nav_bar.xml" value="0.1965" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/drawable/spinner_shape.xml" value="0.17" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/layout/activity_add_order.xml" value="0.20897435897435898" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/layout/activity_add_sales_operations.xml" value="0.2205128205128205" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/layout/activity_add_store.xml" value="0.2205128205128205" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/layout/activity_main.xml" value="0.22060709705002138" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/layout/activity_maintenance_add.xml" value="0.2205128205128205" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/layout/activity_maintenance_requests.xml" value="0.2205128205128205" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/layout/activity_orders.xml" value="0.20897435897435898" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/layout/activity_reports.xml" value="0.25" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/layout/activity_sales_operations.xml" value="0.22" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/layout/activity_stores.xml" value="0.2205128205128205" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/layout/activity_test.xml" value="0.25" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/layout/activity_week_balance.xml" value="0.25" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/layout/activity_week_balance_add.xml" value="0.2205128205128205" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/layout/app_bar_test.xml" value="0.2205128205128205" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/layout/content_test.xml" value="0.2205128205128205" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/layout/fragment_first.xml" value="0.2205128205128205" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/layout/fragment_home.xml" value="0.16973684210526316" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/layout/home_list_item.xml" value="0.2205128205128205" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/layout/item_add_product.xml" value="0.21965811965811965" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/layout/item_test.xml" value="0.2205128205128205" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/layout/list_item.xml" value="0.25" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/layout/main_list_item.xml" value="0.25" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/layout/maintenance_requests_item.xml" value="0.33" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/layout/nav_header_test.xml" value="0.26875" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/layout/orders.xml" value="0.2205128205128205" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/layout/orders_item.xml" value="0.33" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/layout/procuct_item.xml" value="0.2205128205128205" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/layout/sales_operations_item.xml" value="0.33" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/layout/spinner_item.xml" value="0.21965811965811965" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/layout/stores_item.xml" value="0.25" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/layout/weekbalnace_item.xml" value="0.33" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/menu/activity_main_drawer.xml" value="0.33" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/menu/drawer_menu.xml" value="0.16973684210526316" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/menu/share.xml" value="0.21965811965811965" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/menu/test.xml" value="0.26875" />
+        <entry key="..\:/Android_studio_projects/SalesMan/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
